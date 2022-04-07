@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveMotion.WPFCliet", "LiveMotion.WPFCliet\LiveMotion.WPFCliet.csproj", "{68A7694B-E690-402F-B994-2AF65852DACD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveMotion.Core", "LiveMotion.Core\LiveMotion.Core.csproj", "{CFDDA878-FF8F-46EC-9317-BD888C9A4080}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68A7694B-E690-402F-B994-2AF65852DACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A7694B-E690-402F-B994-2AF65852DACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A7694B-E690-402F-B994-2AF65852DACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A7694B-E690-402F-B994-2AF65852DACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFDDA878-FF8F-46EC-9317-BD888C9A4080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFDDA878-FF8F-46EC-9317-BD888C9A4080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFDDA878-FF8F-46EC-9317-BD888C9A4080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFDDA878-FF8F-46EC-9317-BD888C9A4080}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79070F61-42EE-47CE-9393-5658D84D907C}
+	EndGlobalSection
+EndGlobal

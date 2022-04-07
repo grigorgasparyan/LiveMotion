@@ -1,0 +1,33 @@
+﻿<Window x:Class="LiveMotion.WPFCliet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:presentationlist="clr-namespace:LiveMotion.WPFCliet.Controls.PresentationList"
+        xmlns:Slider="clr-namespace:LiveMotion.WPFCliet.Controls.Slide"
+        mc:Ignorable="d"
+        Title="Live Motion"
+        Height="700"
+        Width="1400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="4*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Image Height="80"
+                   Source="..\..\Images\live_motion_1.png" />
+            
+            <presentationlist:PresentationListView Grid.Row="1"
+                                                   Grid.Column="0"
+                                                   DataContext="{Binding PresentationListViewModel, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        </Grid>
+        <Slider:SlidePlayerView  Grid.Column="1"
+                                 Grid.Row="0"
+                                 DataContext="{Binding SlidePlayerViewModel, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+    </Grid>
+</Window>
